@@ -20,6 +20,7 @@
     "node": "^4.8.4 || ^6.11.1"
   },
   "scripts": {
+    "postinstall": "ncp node_modules/casper content/themes/casper",
     "postinstall": "ncp screen.css content/themes/casper/assets/css/screen.css",
     "start": "node server.js"
   }
